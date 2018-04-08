@@ -1,0 +1,405 @@
+html,
+body {
+	position: relative;
+	height: 100%;
+}
+
+ul li {
+	list-style: none;
+}
+
+img,
+ul,
+li {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #eee;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+.index{
+	position: relative;
+	background: #fcfff8;
+}
+.indexbg{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.indexbg1{
+	position: absolute;
+	left: 15%;
+	top: 55%;
+}
+.indexbg2{
+	position: absolute;
+	right: 15%;
+	top: 55%;
+}
+.indexbg3{
+	position: absolute;
+	right: 35%;
+	top: 50%;
+}
+.indexbg4{
+	position: absolute;
+	right: 35%;
+	top: 65%;
+	color: plum;
+	font-style: normal;
+	/*font-size: 30px;*/
+}
+.indexbg5{
+	position: absolute;
+	right: 5%;
+	bottom: 19%;
+	
+}
+
+
+
+
+.page_index {
+	background: #fcfff8;
+	position: relative;
+}
+
+.page_sec {
+	background: #FE657A;
+}
+
+.index_bg {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	margin-left: -249px;
+}
+
+.index_f {
+	position: absolute;
+	top: 10%;
+	left: 10%;
+}
+.index_f1 {
+	position: absolute;
+	top: 15%;
+	left: 0%;
+}
+.index_f2 {
+	position: absolute;
+	top: 12%;
+	left: 20%;
+}
+.index_f3 {
+	position: absolute;
+	top: 12%;
+	left: 15%;
+}
+.index_f4 {
+	overflow: hidden;
+	position: absolute;
+	bottom: 20%;
+	right: 0%;
+	
+}
+.index_f5 {
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	position: absolute;
+	bottom: 30%;
+	right: 10%;
+	
+}
+.index_f6 {
+	width: 120px;
+	height: 120px;
+	overflow: hidden;
+	position: absolute;
+	bottom: 25%;
+	right: 15%;
+	
+}
+.index_f7 {
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	position: absolute;
+	bottom: 20%;
+	right: 25%;
+	
+}
+.index_pic1,.index_pic2{
+	position: absolute;
+	width: 140px;
+	height: 180px;
+}
+.index_pic1{
+	left: 55%;
+	top: 35%;
+}
+.index_pic2{
+	right: 55%;
+	top: 55%;
+}
+.index_pic3{
+	position: absolute;
+	right: 42%;
+	top: 50%;
+}
+.index_pic4{
+	width: 105px;
+	height: 125px;
+	position: absolute;
+	right: 58%;
+	top: 30%;
+	text-indent: 15px;
+	line-height: 30px;
+	color: #9A9FA5;
+	background: url(images/f1_31.png) no-repeat ;
+	background-size:cover;
+}
+.index_pic5{
+	position: absolute;
+	right: 8%;
+	top: 42%;
+}
+.index_pic6{
+	position: absolute;
+	right: 24%;
+	top: 20%;
+}
+
+.index_bg {
+	-webkit-transform: translate(-50%, -30%);
+	transform: translate(-50%, -30%);
+}
+
+.index_up {
+	position: absolute;
+	bottom: 5%;
+	left: 50%;
+	margin-left: -21.5px;
+	z-index: 999;
+}
+
+.page_index_logo {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.mucic_btn {
+	width: 100px;
+	height: 100px;
+	background: url(images/musicBtn.png)center no-repeat;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.off {
+	background: url(images/musicBtnOff.png)center no-repeat;
+}
+
+.index_city_pic {
+	width: 100%;
+	height: 180px;
+	position: absolute;
+	left: 0;
+	bottom: -5px;
+	overflow: hidden;
+}
+
+.index_city_pic li {
+	float: left;
+}
+/*首页结束
+二页开始*/
+
+.page_sec {
+	position: relative;
+	background: #fcfff8;
+}
+.sell_me_star {
+	position: absolute;
+	top: 4%;
+	left: 0%;
+}
+.sell_me{
+	display: block;
+	width: 450px;
+	height: 700px;
+	border-radius: 35px;
+	position: absolute;
+	top: 17%;
+	left: 15%;
+}
+/*二页结束
+三页开始*/
+
+.ps_r {
+	position: relative;
+}
+
+.ps_a {
+	position: absolute;
+}
+.u{
+	left: 0;
+	top: 70%;
+}
+.P{
+	left: 0;
+	top: 70%;
+	color: floralwhite;
+	font-size: 55px;
+}
+.P1{
+	left: 0;
+	top: 70%;
+	color: lightpink;
+	font-size: 55px;
+}
+.P2{
+	left: 0;
+	bottom: 0%;
+	color:snow;
+	font-size:25px;
+}
+
+.P3{
+	left: 0%;
+	top: 75%;
+	color: lightpink;
+	font-size: 35px;
+}
+.P4{
+	left: 50%;
+	top: 85%;
+	color: lightcyan;
+	font-size: 35px;
+}
+.flower{
+	left: -10%;
+	top: 40%;
+}
+.index_L1{
+	left: 10%;
+	top: 22%;
+}
+.index_L2{
+	left: 15%;
+	top: 17%;
+}
+.index_L3{
+	left: 10%;
+	top: 12%;
+}
+
+
+/*三页结束
+四页开始*/
+
+.page_talk {
+	background: #fcfff8;
+}
+
+.agora_left3 {
+	left: 5%;
+	top: 5%;
+}
+
+.index_up1 {
+	position: absolute;
+	bottom: 0%;
+	left: 50%;
+	margin-left: -21.5px;
+	z-index: 999;
+}
+
+.page_talk_U {
+	bottom: 5%;
+	left: 50%;
+	margin-left: -83px;
+	/*z-index: 999;*/
+}
+/*谈话结束
+夏天开始*/
+
+.summer {
+	background:#fcfff8;
+}
+
+.summer_tit {
+	top: 10%;
+	left: 50%;
+	margin-left: -130px;
+}
+
+.summer_dot {
+	top: 30%;
+	left: 50%;
+	margin-left: -2px;
+}
+
+.summer_job {
+	top: 50%;
+	left: 50%;
+	margin-left: -320px;
+}
+/*最后一页开始*/
+
+.end {
+	background: white;
+}
+
+.end_tit {
+	top: 10%;
+	left: 50%;
+	margin-left: -215px;
+}
+
+.end_search {
+	width: 430px;
+	height: 34px;
+	border: 1px solid black;
+	top: 25%;
+	left: 50%;
+	margin-left: -215px;
+}
+
+.end_search_zoom {
+	background: #fcfff8;
+	left: 79%;
+	top: 25%;
+}
+
+.end_guide {
+	left: 50%;
+	bottom: 25%;
+	margin-left: -73.5px;
+}
+
+.end_wechat {
+	left: 50%;
+	bottom: 15%;
+	margin-left: 10px;
+}
+
+.end_wechat1 {
+	right: 50%;
+	bottom: 15%;
+	margin-right: 10px;
+}
